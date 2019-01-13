@@ -4,13 +4,36 @@
   - [Quick Start](getting-started/02-quick-start.md)
   - [Tutorials](getting-started/03-tutorials.md)
 - Projects
+  - [Create a New Project](projects/01-create-a-new-project.md)
+  - [Delete a Project](projects/02-delete-a-project.md)
 - Tasks
+  - [Create a New Task](tasks/01-create-a-new-task.md)
+  - [Integrate with GitHub](tasks/02-integrate-with-github.md)
+  - [Build a Task](tasks/03-build-a-task.md)
+  - [Obfuscation](tasks/04-obfuscation.md)
 - Pipelines
+  - [Create a New Pipeline](pipelines/01-create-a-new-pipeline.md)
+  - [Build a Pipeline](pipelines/02-build-a-pipeline.md)
 - Jobs
+  - [Run a Job](jobs/01-run-a-job.md)
+  - [Check Metrics and Logs](jobs/02-check-metrics-and-logs.md)
+  - [Setup a Webhook](jobs/03-setup-a-webhook.md)
+  - [Send a Notification](jobs/04-send-a-notification.md)
 - Datasets
+  - [Create and New Dataset](datasets/01-create-a-new-dataset.md)
+  - [Mount a Dataset](datasets/02-mount-a-dataset.md)
 - Environments
+  - [Available Environments](environments/01-available-environments.md)
+  - [Customize an Environment](environments/02-customize-an-environment.md)
+  - [Using CPU vs GPU](environments/03-using-cpu-vs-gpu.md)
 - Outputs
+  - [Output a Result](outputs/01-output-a-result.md)
+  - [Test Outputs](outputs/02-test-outputs.md)
+  - [Using Outputs as a Dataset](outputs/03-using-outputs-as-a-dataset.md)
 - Deployments
+  - [Deploy a Pipelines](deployments/01-deploy-a-pipeline.md)
+  - [Deploy a Task](deployments/02-deploy-a-task.md)
+  - [Advanced Configuration](deployments/03-advanced-configuration.md)
 - Features
   - [Podder CLI](features/01-podder-cli.md)
   - [Podder Web](features/02-podder-web.md)

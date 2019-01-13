@@ -7,7 +7,7 @@ The essential points for understanding and effectively using Podder.ai can be gr
 - Jobs
 - Datasets
 - Environments
-- Output
+- Outputs
 
 ## Projects
 The project is the most central construct of the Podder.ai platform. It directly correlates with what you'd think of as a deep learning project outside of Podder.ai: You have a problem you need to solve with a deep learning model. You get on your computer, create a new directory with a name like mnist-cnn and boom, you've started a new project. In that directory, you'll write some code, run some experiments, and iterate until you have created a deep learning model that meets your needs.
@@ -58,7 +58,7 @@ Podder Web has a bunch of different deep learning environments to choose from. W
 
 If Podder Web's stock deep learning environments don't meet your needs, you can create a custom environment for your job. See this guide for instructions on that.
 
-## Output
+## Outputs
 Output is anything from a job that you want to save for future use. The most common form of output is model checkpoints (the weights and biases of your model) that you developed during a job. If you save these checkpoints (or anything else you'd like to preserve) during a job, you'll have them to reference, download, and reuse in the future.
 
 Output is the way that you can link jobs together: You run a job to test an idea you have. If it works, you may want to start where you left off and run another job. If going down that path leads to a dead end, you may want to go back to a previous output and start again from there. Knowing how to store output is key to optimizing your deep learning workflow.

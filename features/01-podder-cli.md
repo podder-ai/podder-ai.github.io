@@ -37,3 +37,4 @@ Below are the commands that are part of Podder CLI.
 |upgrade|Upgrade CLI to the latest version.|
 |version|View the current version of the CLI.|
 
+Run `podder COMMAND --help` for more information on a command.
