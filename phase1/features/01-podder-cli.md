@@ -21,15 +21,14 @@ Below are the commands that are part of Podder CLI.
 
 |Command|Description|
 |:---|:---|
-|init|Add new task and pipelines at the current path.|
-|task add|Add new task at the current path.|
+|task add|Add new task at the current path. --template (template name)|
 |task build |Build task at the current path.|
 |task obfuscate|Obfuscate task at the current path.|
 |task pre-commit|Run formaters, linters and unit testsat the current path.|
 |task run|Run task at the current path.|
 |task tag|Tag task at the current path.|
 |pipeline add|Add new pipeline at the current path.|
-|pipeline build|Build pipelines from yaml at the current path.|
+|pipeline compose|Build pipelines from yaml at the current path. -f overwrite docker-compose.yml --proto-file just create proto-file for gRPC|
 |pipeline serve|Serve pipelines at the current path.|
 |pipeline tag|Tag pipeline at the current path.|
 |deployment build|Build kubernetes yaml file at the current path.|
