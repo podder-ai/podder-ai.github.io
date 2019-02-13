@@ -21,7 +21,6 @@ Below are the commands that are part of Podder CLI.
 
 |Command|Description|
 |:---|:---|
-|init|Add new task and pipelines at the current path.|
 |task add|Add new task at the current path.|
 |task build |Build task at the current path.|
 |task obfuscate|Obfuscate task at the current path.|
@@ -29,7 +28,7 @@ Below are the commands that are part of Podder CLI.
 |task run|Run task at the current path.|
 |task tag|Tag task at the current path.|
 |pipeline add|Add new pipeline at the current path.|
-|pipeline build|Build pipelines from yaml at the current path.|
+|pipeline compose|Build pipelines from yaml at the current path.|
 |pipeline serve|Serve pipelines at the current path.|
 |pipeline tag|Tag pipeline at the current path.|
 |deployment build|Build kubernetes yaml file at the current path.|
