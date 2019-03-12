@@ -3,7 +3,6 @@ In this section, you will get the following things:
 - [Change Sensor Task Setting](/installation/05-advanced-settings?id=change-sensor-task-setting)
 - [Change Writer Task Setting](/installation/05-advanced-settings?id=change-writer-task-setting)
 
-
 ## Change Sensor Task Setting
 [sensor-task](https://github.com/podder-ai/sensor-task) supports the following input storages.
 - Local Storage
