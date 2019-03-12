@@ -3,5 +3,11 @@
   - [Core Concepts](getting-started/01-core-concepts.md)
   - [Quick Start](getting-started/02-quick-start.md)
   - [Tutorials](getting-started/03-tutorials.md)
+- Installation
+  - [Set Up Environment](installation/01-set-up-environment.md)
+  - [Deployment](installation/02-deployment.md)
+  - [UAT](installation/03-uat.md)
+  - [Monitoring](installation/04-monitoring.md)
+  - [Advanced Settings](installation/05-advanced-settings.md)
 - Features
   - [Podder CLI](features/01-podder-cli.md)
