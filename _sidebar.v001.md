@@ -1,4 +1,3 @@
-<!-- - [ホーム](/) -->
 - コンセプト
   - [概要](v001/concept/01-overview.md)
   - [なぜ Podder.ai なのか？](v001/concept/02-why-podder-ai.md)
