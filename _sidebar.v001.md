@@ -2,7 +2,7 @@
   - [Podder.ai とは](v001/concept/01-overview.md)
 
 - クイックスタート
-  - [初めてのパイプライン実行](v001/getting-started/01-run-your-first-pipeline.md)
+  - [初めてのアプリケーション実行](v001/getting-started/01-run-your-first-application.md)
   - [初めてのデプロイメント](v001/getting-started/02-first-deployment.md)
 - アーキテクチャ
   - [概要](v001/architecture/01-overview.md)
