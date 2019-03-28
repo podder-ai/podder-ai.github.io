@@ -8,7 +8,7 @@
   - [概要](v001/architecture/01-overview.md)
 - チュートリアル
   - [パイプラインの設計](v001/tutorial/01-design-pipeline.md)
-  - [パイプラインのデプロイ](v001/tutorial/01-deploy-pipeline.md)
+  - [アプリケーションのデプロイ](v001/tutorial/02-deploy-pipeline.md)
 - ガイドライン
   - [プロジェクト](v001/guides/01-project.md)
   - [タスク](v001/guides/02-task.md)
