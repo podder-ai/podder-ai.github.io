@@ -1,6 +1,6 @@
 - コンセプト
-  - [概要](v001/concept/01-overview.md)
-  - [なぜ Podder.ai なのか？](v001/concept/02-why-podder-ai.md)
+  - [Podder.ai とは](v001/concept/01-overview.md)
+
 - クイックスタート
   - [初めてのパイプライン実行](v001/getting-started/01-run-your-first-pipeline.md)
   - [初めてのデプロイメント](v001/getting-started/02-first-deployment.md)
@@ -20,6 +20,6 @@
 - ベストプラクティス
   - [パイプラインの設計](v001/best-practice/01-design-pipeline.md)
   - [環境設定](v001/best-practice/02-environment-configuration.md)
-- APIリファレンス
+- API リファレンス
   - [モジュール](v001/api-reference/01-module.md)
   - [パイプライン](v001/api-reference/02-pipeline.md)
