@@ -6,7 +6,6 @@
   - [初めてのデプロイメント](v001/getting-started/02-first-deployment.md)
 - アーキテクチャ
   - [概要](v001/architecture/01-overview.md)
-  - [データ処理](v001/architecture/02-data-processing.md)
 - チュートリアル
   - [パイプラインの設計](v001/tutorial/01-design-pipeline.md)
   - [パイプラインのデプロイ](v001/tutorial/01-deploy-pipeline.md)
