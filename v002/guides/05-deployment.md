@@ -70,6 +70,8 @@ pod_autoscaling_settings:
   provider: aws
   queue_url: YOUR_AWS_SQS_URL
   region: YOUR_AWS_SQS_REGION
+  aws_access_key: YOUR_AWS_ACCESS_KEY
+  aws_secret_access_key: YOUR_AWS_SECRET_ACCESS_KEY
   poll_period: 5s
   scale_down_cool_down: 10s
   scale_up_cool_down: 10s
