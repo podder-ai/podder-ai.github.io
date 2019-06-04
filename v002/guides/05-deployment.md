@@ -1,5 +1,6 @@
 # Deployment
 Podder.ai enables you to deploy your AI application to the cluster easily. We will explain the basic deployment commands on Podder.ai and how to modify configuration to match your needs.
+> Before you deploy, you need to setup your `cluster.yml`. Please check `Environment Configuration` Section.
 
 ## Initialize Configuration 
 You can initialize configuration by the following command.
