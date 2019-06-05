@@ -40,5 +40,37 @@ Authorizing podder-cli utilization ...
 podder, version 0.2.11
 ```
 
+## Recommended System Requirements
+To ensure Podder runs successfully, please accomplish following requirements.
 
+### Supported OS for CLI
+- MacOS
+- Linux
+ - Ubuntu
 
+### Supported OS for k8s Node
+Currently, only provisioning via cloud provider is supported.
+
+For EKS, all types of OS are supported.
+
+### System requirements for k8s
+#### OS
+- Ubuntu 16.0 Debian 9
+- CentOS 7
+- RHEL 7
+- Fedora 25/26 (best-effort)
+- HypriotOS v1.0.1+
+- Container Linux (tested with 1576.4.0) 4+
+
+#### Memory
+- 2GB以上
+
+#### CPU
+- 2CPU以上
+
+#### Network
+- クラスター内のすべてのマシンの間の完全なネットワーク接続
+- ユニークなホスト名、MACアドレス、プロダクトUUID
+
+#### Disk
+- Swapの無効化
