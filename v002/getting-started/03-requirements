@@ -1,0 +1,14 @@
+# Requirements
+## Software requirements for podder-installer
+### Following software are required when running podder-installer
+- pip
+- Python (v3.6 or higher is required)
+
+### Following software will be installed if not installed when running podder-installer
+*Newest version at current time will be installed.
+- Docker
+- Helm
+- kubectl
+- AWS CLI
+- aws-i-am-authenticator
+- Terraform
