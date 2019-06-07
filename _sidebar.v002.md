@@ -13,3 +13,5 @@
   - [Deployment](v002/guides/05-deployment.md)
 - Release Notes
   - [Versions](v002/release-notes/01-versions.md)
+- Trouble Shooting
+  - [Problems with Podder setup](v002/trouble-shooting/01-problems-with-podder-setup.md)
