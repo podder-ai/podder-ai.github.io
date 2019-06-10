@@ -3,6 +3,20 @@
 ## Before you install
 You need to get credential from Podder.ai team. Please contact us first.
 
+## Requirements
+Before you execute podder-installer, you will need to have following software installed.
+- pip
+- Python (v3.6 or higher is required)
+
+And when you execute podder-installer, podder-installer will install following software needed, if not already installed.
+For the following, newest version at current date will be installed.
+- Docker
+- Helm
+- kubectl
+- AWS CLI
+- aws-i-am-authenticator
+- Terraform
+
 ## Download Podder Installer
 You can download podder-installer according to your machine from the following URL.
 
@@ -39,6 +53,3 @@ $ podder --version
 Authorizing podder-cli utilization ...
 podder, version 0.2.11
 ```
-
-
-
