@@ -47,7 +47,7 @@ To ensure Podder runs successfully, please accomplish following requirements.
 #### Supported OS
 - MacOS
 - Linux
- - Ubuntu
+- Ubuntu
 
 #### Memory
 - 8GB
