@@ -47,9 +47,54 @@ $ terraform is not installed. Do you want to continue to install terraform? [y/n
 $ aws-iam-authenticator is not installed. Do you want to continue to install aws-iam-authenticator? [y/n] y
 ```
 
-After installation is complated, you can check if podder is installed by the following command.
+After installation is completed, you can check if podder is installed by the following command.
 ```bash
 $ podder --version
 Authorizing podder-cli utilization ...
 podder, version 0.2.11
 ```
+
+## Recommended System Requirements
+To ensure Podder runs successfully, please accomplish following requirements.
+
+### Requirements for Podder
+#### Supported OS
+- MacOS
+- Linux
+- Ubuntu
+
+#### Memory
+- 8GB
+
+#### CPU
+- 2
+
+#### Storage
+- 200GB
+
+### Requirements for Kubernetes
+#### Supported OS for Kubernetes
+- Ubuntu 16.0 Debian 9
+- CentOS 7
+- RHEL 7
+- Fedora 25/26 (best-effort)
+- HypriotOS v1.0.1+
+- Container Linux (tested with 1576.4.0) 4+
+
+#### Supported OS for Kubernetes Node
+Currently, only provisioning via cloud provider is supported.
+
+For EKS, all types of OS are supported.
+
+#### Memory
+- 2GB
+
+#### CPU
+- 2
+
+#### Network
+- Complete network across every machine within a cluster.
+- Unique host name, Mac address, product UUID.
+
+#### Disk
+- Disable Swap
