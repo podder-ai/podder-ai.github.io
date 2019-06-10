@@ -3,14 +3,7 @@
 ## Before you install
 You need to get credential from Podder.ai team. Please contact us first.
 
-## Download Podder Installer
-You can download podder-installer according to your machine from the following URL.
-
-#### Version 0.4.4
-
-- [Linux 64bit](https://podder-downloads.s3-ap-northeast-1.amazonaws.com/podder-installer/0.4.4/podder-installer_linux_amd64)
-
-## Before you execute Podder Installer
+## Requirements
 Before you execute podder-installer, you will need to have following software installed.
 - pip
 - Python (v3.6 or higher is required)
@@ -24,6 +17,12 @@ For the following, newest version at current date will be installed.
 - aws-i-am-authenticator
 - Terraform
 
+## Download Podder Installer
+You can download podder-installer according to your machine from the following URL.
+
+#### Version 0.4.4
+
+- [Linux 64bit](https://podder-downloads.s3-ap-northeast-1.amazonaws.com/podder-installer/0.4.4/podder-installer_linux_amd64)
 
 ## Execute Podder Installer
 You can execute podder-installer by the following command. (eq:  Linux AMD64)
