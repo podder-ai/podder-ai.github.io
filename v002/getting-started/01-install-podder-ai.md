@@ -20,24 +20,26 @@ For the following, newest version at current date will be installed.
 ## Download Podder Installer
 You can download podder-installer according to your machine from the following URL.
 
-#### Version 0.4.4
+#### Version 1.0.0
 
-- [Linux 64bit](https://podder-downloads.s3-ap-northeast-1.amazonaws.com/podder-installer/0.4.4/podder-installer_linux_amd64)
+- [Linux 64bit](https://podder-downloads.s3-ap-northeast-1.amazonaws.com/podder-installer/1.0.0/podder-installer-1.0.0_linux_amd64)
 
 ## Execute Podder Installer
 You can execute podder-installer by the following command. (eq:  Linux AMD64)
 ```bash
 # Add permission to execute podder installer
-$ chmod 755 podder-installer_linux_amd64
+$ chmod 755 podder-installer-1.0.0_linux_amd64
+
 # Execute podder-installer
-$ sudo ./podder-installer_linux_amd64
+$ sudo ./podder-installer-1.0.0_linux_amd64
 ```
 
 Now, you will be asked several questions.
 ```bash
-# You can input the credential from Podder.ai team
+# Please input the credential from Podder.ai team
 $ Please input your access key: ******
-# You can input "y" to install
+
+# Please input "y" to install
 $ docker is not installed. Do you want to continue to install docker? [y/n] y
 $ docker-compose is not installed. Do you want to continue to install docker-compose? [y/n] y
 $ kubectl is not installed. Do you want to continue to install kubectl? [y/n] y
@@ -51,7 +53,7 @@ After installation is completed, you can check if podder is installed by the fol
 ```bash
 $ podder --version
 Authorizing podder-cli utilization ...
-podder, version 0.2.11
+podder, version 1.0.0
 ```
 
 ## Recommended System Requirements
