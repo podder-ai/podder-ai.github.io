@@ -61,7 +61,6 @@ To ensure Podder runs successfully, please accomplish following requirements.
 
 ### Requirements for Podder
 #### Supported OS
-- MacOS
 - Linux
 - Ubuntu
 
