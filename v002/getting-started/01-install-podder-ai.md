@@ -4,12 +4,14 @@
 You need to get credential from Podder.ai team. Please contact us first.
 
 ## Requirements
-Before you execute podder-installer, you will need to have following software installed.
+### Preparation
+Before you execute podder-installer, you will need to have the following software installed.
 - pip
 - Python (v3.6 or higher is required)
 
-And when you execute podder-installer, podder-installer will install following software needed, if not already installed.
-For the following, newest version at current date will be installed.
+### Softwares to be installed
+When you execute podder-installer, it will install the following softwares.
+The newest version at current date will be installed by podder-installer.
 - Docker
 - Helm
 - kubectl
