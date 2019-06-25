@@ -1,14 +1,42 @@
-# Best Practice
-In order to keep your datas safe and validated, it is recommended for you to create validators for your project.
+# Validation
+In order to keep your datas safe without errors, it is recommended for you to make validations for your project.
 
 ## JSON Schema
 JSON Schema allows users to define requirements for JSON, and will be able to test whether JSON is in expected format easily.
 
-In Podder, JSON schema is used to validate result for post process tasks. And to update JSON schema, please update `success_json_schema.json` file, in `config` directory.
+### JSON Schema in Podder
+In Podder, JSON schema is recommended to validate result output for each necessary tasks.
 
+For executing JSON schema, please create JSON schema  settings file in `config` directory, and run validation using JSON schema library.
+
+Here are the sample code of running JSON schema validation within a task.
+
+```
+import json
+from jsonschema import validate
+
+class SampleTask(object):
+    // Define file name of JSON schema file.
+    JSON_SCHEMA_FILE = '...'
+
+    def __init__(self, context: Context) -> None:
+        self.context = context
+
+    def execute(self, input_data: Any) -> Any:
+        // Code logic to get your output result,for validating using JSON schema.
+        params = ...
+
+        // Run JSON schema
+        schema_file_path = self.context.file.get_config_path(self.JSON_SCHEMA_FILE)
+        with open(schema_file_path, 'r') as schema_file:
+            schema = json.load(schema_file)
+            validate(instance=params, schema=schema)
+```
+
+
+### About JSON Schema
 JSON schema is written in JSON format, and will have following parameters.
 
-### JSON Schema parameters
 #### $schema
 Determines which version of JSON schema to use. Current newest version at June 2019, is `draft-04`.
 
