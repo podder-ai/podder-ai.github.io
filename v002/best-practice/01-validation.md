@@ -7,7 +7,7 @@ JSON Schema allows users to define requirements for JSON, and will be able to te
 ### JSON Schema in Podder
 In Podder, JSON schema is recommended to validate result output for each necessary tasks.
 
-For executing JSON schema, please create JSON schema  settings file in `config` directory, and run validation using JSON schema library.
+For executing validation using JSON schema, please create JSON schema  file in `config` directory, and run validation using JSON schema library.
 
 Here are the sample code of running JSON schema validation within a task.
 
