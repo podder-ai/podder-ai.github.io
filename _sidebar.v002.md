@@ -11,6 +11,8 @@
   - [Pipeline](v002/guides/03-pipeline.md)
   - [Environemnt Configuration](v002/guides/04-environment-configuration.md)
   - [Deployment](v002/guides/05-deployment.md)
+- Best Practice
+  - [Validation](v002/best-practice/01-validation.md)
 - Release Notes
   - [Versions](v002/release-notes/01-versions.md)
 - Trouble Shooting
