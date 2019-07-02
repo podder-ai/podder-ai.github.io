@@ -22,18 +22,18 @@ The newest version at current date will be installed by podder-installer.
 ## Download Podder Installer
 You can download podder-installer according to your machine from the following URL.
 
-#### Version 1.0.4
+#### Version 1.1.0
 
-- [Linux 64bit](https://podder-downloads.s3-ap-northeast-1.amazonaws.com/podder-installer/1.0.4/podder-installer-1.0.4_linux_amd64)
+- [Linux 64bit](https://podder-downloads.s3-ap-northeast-1.amazonaws.com/podder-installer/1.1.0/podder-installer-1.1.0_linux_amd64)
 
 ## Execute Podder Installer
 You can execute podder-installer by the following command. (eq:  Linux AMD64)
 ```bash
 # Add permission to execute podder installer
-$ chmod 755 podder-installer-1.0.4_linux_amd64
+$ chmod 755 podder-installer-1.1.0_linux_amd64
 
 # Execute podder-installer
-$ sudo ./podder-installer-1.0.4_linux_amd64
+$ sudo ./podder-installer-1.1.0_linux_amd64
 ```
 
 Now, you will be asked several questions.
@@ -55,7 +55,7 @@ After installation is completed, you can check if podder is installed by the fol
 ```bash
 $ podder --version
 Authorizing podder-cli utilization ...
-podder, version 1.0.4
+podder, version 1.1.0
 ```
 
 ## Recommended System Requirements
