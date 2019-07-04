@@ -1,23 +1,23 @@
 # Install Podder.ai
 
 ## Before you install
-You need to get credential from Podder.ai team. Please contact us first.
+You can install Podder.ai by using `podder-installer`. To execute it, you need to get credential from Podder.ai team. Please contact us first.
 
-## Requirements
-### Preparation
-Before you execute podder-installer, you will need to have the following software installed.
+Also, you need the following software installed in your environment.
 - pip
 - Python (v3.6 or higher is required)
 
-### Softwares to be installed
-When you execute podder-installer, it will install the following softwares.
-The newest version at current date will be installed by podder-installer.
+When you execute podder-installer, the following softwares are installed.
+- curl
+- unzip
 - Docker
-- Helm
+- docker-compose
 - kubectl
+- Helm
 - AWS CLI
 - aws-i-am-authenticator
 - Terraform
+> The newest version at current date is installed
 
 ## Download Podder Installer
 You can download podder-installer according to your machine from the following URL.
@@ -59,9 +59,9 @@ podder, version 1.1.0
 ```
 
 ## Recommended System Requirements
-To ensure Podder runs successfully, please accomplish following requirements.
+To ensure Podder.ai runs successfully, please make sure your environment satisfy the following requirements.
 
-### Requirements for Podder
+### Requirements for Podder.ai
 #### Supported OS
 - Linux
 - Ubuntu
@@ -85,8 +85,7 @@ To ensure Podder runs successfully, please accomplish following requirements.
 - Container Linux (tested with 1576.4.0) 4+
 
 #### Supported OS for Kubernetes Node
-Currently, only provisioning via cloud provider is supported.
-
+Currently, Podder.ai only provisions via cloud provider.
 For EKS, all types of OS are supported.
 
 #### Memory
