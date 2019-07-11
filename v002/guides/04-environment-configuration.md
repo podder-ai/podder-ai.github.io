@@ -51,6 +51,42 @@ Podder CLI uses `.podder/cluster.yml` for configuring Cluster AutoScaler. So ple
 
 If you have already run `podder cluster apply`, please remove line `cluster_autoscaler: True` from your `.podder/cluster.yml` and run `podder cluster apply` again.
 
+### About Persistent Volumes provisioner
+
+For EKS cluster, we will use Elastic File System (EFS) for ReadWriteMany persistent volumes. 
+
+You need to add following permission for your Terraform IAM user before you initialize cluster configuration.
+From AWS console Please add `AmazonElasticFileSystemFullAccess` to IAM user using for Terraform
+Or from json editor, please add bellow content
+```
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Action": [
+                "ec2:CreateNetworkInterface",
+                "ec2:DeleteNetworkInterface",
+                "ec2:DescribeAvailabilityZones",
+                "ec2:DescribeNetworkInterfaceAttribute",
+                "ec2:DescribeNetworkInterfaces",
+                "ec2:DescribeSecurityGroups",
+                "ec2:DescribeSubnets",
+                "ec2:DescribeVpcAttribute",
+                "ec2:DescribeVpcs",
+                "ec2:ModifyNetworkInterfaceAttribute",
+                "elasticfilesystem:*",
+                "kms:DescribeKey",
+                "kms:ListAliases"
+            ],
+            "Effect": "Allow",
+            "Resource": "*"
+        }
+    ]
+}
+```
+
+We are working on Persistent Volumes provisioner for another provider, please setup your provisioner before deploment.
+
 #### Sample of cluster.yml
 ```yaml
 # Cluster autoscaler parameters
