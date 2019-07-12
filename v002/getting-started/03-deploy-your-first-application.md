@@ -1,5 +1,5 @@
 # Deploy Your First Application
-## What Your Learn
+## What You Learn
 Let's deploy your first application using the application your built in the previous section. Here you can learn the following:
 - How to build a cluster using Podder CLI
 - How to deploy application using Podder CLI
@@ -8,7 +8,7 @@ Let's deploy your first application using the application your built in the prev
 ## Configure Environment
 ### Preparation
 You need to prepare the following credentials:
-- DockerHub
+- Container Registry (DockerHub, ECR)
 - AWS
   - EKS
 > Note that you will be charged money for utilization of AWS.
