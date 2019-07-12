@@ -13,6 +13,7 @@ $ podder cluster init
 Cluster name [podder]:
 Cluster Provider [eks]:
 Docker registry type [docker_hub]:
+Terraform backend type (local, s3) [local]: s3
 Setting up provider
 AWS access key id:
 AWS secret access key:
@@ -36,9 +37,40 @@ Docker Hub username [username]:
 Docker Hub email [email@sample.com]:
 Docker Hub password [********]:
 Docker Hub image namespace [username]:
+Please provide your S3 backend for Terraform
+S3 bucket name [podder-terraform-state]:
+S3 path for state file [terraform/terraform.tfstate]:
+S3 region [ap-southeast-1]:
+```
+After you input the all information `cluster.yml` is created under .podder directory.
+
+## Terraform backend configuration
+
+By default, Podder Cli Terraform will create files locally but also a remote storage may be used.
+Most used storage is an AWS S3 bucket as a Terraform backend.
+We provide 2 type of Terraform backend in this moment.
+- local: store Terraform state to local files
+- s3: use a S3 bucket storage of Terraform state
+
+You will be asked your environment setting configuration as below
+```
+Terraform backend type (local, s3) [local]: s3
+
+Please provide your S3 backend for Terraform
+S3 bucket name [podder-terraform-state]:
+S3 path for state file [terraform/terraform.tfstate]:
+S3 region [ap-southeast-1]:
 ```
 
-After you input the all information `cluster.yml` is created under .podder directory.
+After `podder cluster init`, you can edit directly `cluster.yml` is created under .podder directory.
+```yaml
+ terraform_settings:
+  backend:
+    type: s3
+    bucket: podder-terraform-state
+    key: terraform/terraform.tfstate
+    region: ap-southeast-1
+ ```
 
 ## Kubernetes Cluster autoscaler
 ### About Cluster autoscaler
