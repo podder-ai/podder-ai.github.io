@@ -52,6 +52,7 @@ We provide 2 type of Terraform backend in this moment.
 - local: store Terraform state to local files
 - s3: use a S3 bucket storage of Terraform state
 
+Please prepare a S3 buctket for below settings
 You will be asked your environment setting configuration as below
 ```
 Terraform backend type (local, s3) [local]: s3
