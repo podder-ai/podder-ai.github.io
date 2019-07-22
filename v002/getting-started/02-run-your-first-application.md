@@ -45,6 +45,7 @@ Now, we will implement some logic on `podder-task`. We will write some codes in 
 
 You can modify the code inside of `execute` method in task.py. (If you would like to keep the current code, please move on to next step.)
 > DO NOT change the interface of execute method.
+
 ```
 # app.task.py
 ・・・
@@ -79,7 +80,7 @@ Next, let's build a pipeline. The pipeline design is described in the YAML file.
 version: 1.0
 tasks:                                  # Add your tasks here
   - task_name: sensor-task              # Task name
-    timeout: 30                         # Timeout setting of task 
+    timeout: 30                         # Timeout setting of task
   - task_name: podder-task
     timeout: 120
   - task_name: writer-task
@@ -120,5 +121,3 @@ $ cp podder-task/tests/files/inputs.json input/inputs.json
 You can activate your dag from the screen by switching your dag to `ON` status. After waiting for a few minutes, you can see the job is completed and the result is outputted to `output` directory.
 
 This is the end of the tutorial. You now understand how to use Podder CLI and design a pipeline on Podder.ai.
-
-
