@@ -3,6 +3,7 @@
 - Getting Started
   - [Install Podder.ai](v002/getting-started/01-install-podder-ai.md)
   - [Run Your First Application](v002/getting-started/02-run-your-first-application.md)
+  - [Deploy Your First Application](v002/getting-started/03-deploy-your-first-application.md)
 - Architecture
   - [Overview](v002/architecture/01-overview.md)
 - Guide
