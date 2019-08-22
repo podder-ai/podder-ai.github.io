@@ -90,9 +90,13 @@ dags:
     schedule_interval: "* * * * *"      # Modify this if you want to change schedule interval. (Cron expression)
     max_active_runs: 1                  # The number of active dags to be running
     flows:                              # Running order of tasks
-      - - sensor-task
-        - podder-task
-        - writer-task
+      - task_name: sensor-task
+        downstream_tasks:
+          - podder-task
+      - task_name: podder-task
+        downstream_tasks:
+          - writer-task
+      - task_name: writer-task
 task_log_format: "time:[%(time)s]\tname:%(name)s\ttaskname:%(taskname)s\tscriptinfo:[%(scriptinfo)s]\tloglevel:%(levelname)s\tprogresstime:%(progresstime)s\ttasktime:%(tasktime)s\tmessage:[%(message)s]"
 task_log_level: DEBUG
 sql_log_format: "time:[%(asctime)s]\tname:%(name)s\tloglevel:%(levelname)s\tmessage:[%(message)s]"
