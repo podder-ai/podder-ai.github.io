@@ -1,0 +1,20 @@
+- Concept
+  - [What is Podder.ai?](v1.2/concept/01-overview.md)
+- Getting Started
+  - [Install Podder.ai](v1.2/getting-started/01-install-podder-ai.md)
+  - [Run Your First Application](v1.2/getting-started/02-run-your-first-application.md)
+  - [Deploy Your First Application](v1.2/getting-started/03-deploy-your-first-application.md)
+- Architecture
+  - [Overview](v1.2/architecture/01-overview.md)
+- Guide
+  - [Project](v1.2/guides/01-project.md)
+  - [Task](v1.2/guides/02-task.md)
+  - [Pipeline](v1.2/guides/03-pipeline.md)
+  - [Environemnt Configuration](v1.2/guides/04-environment-configuration.md)
+  - [Deployment](v1.2/guides/05-deployment.md)
+- Best Practice
+  - [Validation](v1.2/best-practice/01-validation.md)
+- Release Notes
+  - [Versions](v1.2/release-notes/01-versions.md)
+- Trouble Shooting
+  - [Problems with Podder setup](v1.2/trouble-shooting/01-problems-with-podder-setup.md)
