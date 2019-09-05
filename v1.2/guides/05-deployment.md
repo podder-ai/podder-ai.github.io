@@ -45,7 +45,7 @@ You can apply deployment to your cluster by the following command.
 $ podder deploy apply
 ```
 
-### Individual Build
+### Individual Apply
 You can build and push docker image of specific task by the following command.
 ```bash
 $ podder deploy apply --name podder-task
