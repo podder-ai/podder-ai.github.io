@@ -28,15 +28,27 @@ versions: null
 ```
 
 ## Build and Push Docker Image
-You can build and push docker image to your registory by the following command.
+You can build and push docker image to your registry by the following command.
 ```bash
 $ podder deploy push
+```
+
+### Individual Build
+You can build and push docker image of specific task by the following command.
+```bash
+$ podder deploy push --name podder-task
 ```
 
 ## Apply Deployment
 You can apply deployment to your cluster by the following command.
 ```bash
 $ podder deploy apply
+```
+
+### Individual Build
+You can build and push docker image of specific task by the following command.
+```bash
+$ podder deploy apply --name podder-task
 ```
 
 ## Delete Deployment

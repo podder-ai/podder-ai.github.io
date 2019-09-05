@@ -26,9 +26,9 @@ You can download podder-installer according to your machine from the following U
 
 - [Linux 64bit](https://podder-ai-downloads.s3-ap-southeast-1.amazonaws.com/podder-installer/1.2.0/podder-installer-1.2.0_linux_amd64)
 
-#### Version 1.0.6
+#### Version 1.0.7
 
-- [Linux 64bit](https://podder-ai-downloads.s3-ap-southeast-1.amazonaws.com/podder-installer/1.0.6/podder-installer-1.0.6_linux_amd64)
+- [Linux 64bit](https://podder-ai-downloads.s3-ap-southeast-1.amazonaws.com/podder-installer/1.0.7/podder-installer-1.0.7_linux_amd64)
 
 ## Execute Podder Installer
 You can execute podder-installer by the following command. (eq:  Linux AMD64)
