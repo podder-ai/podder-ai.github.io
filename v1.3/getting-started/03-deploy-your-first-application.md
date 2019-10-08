@@ -22,26 +22,32 @@ $ podder cluster init
 You will be asked your environment setting configuration, such as provider and cluster settings. Please input value according to your environment needs.
 ```bash
 $ podder cluster init
-Cluster name [podder]:
-Cluster Provider [eks]:
-Docker registry type [docker_hub]:
+Authorizing podder-cli utilization ...
+Cluster name [podder]: podder
+Cluster Provider (eks) [eks]: eks
+Docker registry type (docker_hub, self_hosted, ecr) [docker_hub]: docker_hub
 Setting up provider
-AWS access key id:
-AWS secret access key:
-AWS Region [ap-southeast-1]:
+AWS access key id: 
+AWS secret access key: 
+AWS Region [ap-southeast-1]: ap-southeast-1
 Setting up cluster
-Auto scaling worker group number [1]: 
+CIDR block of VPC [10.0.0.0/16]: 10.0.0.0/16
+Auto scaling worker group number [1]: 1
 Please configure auto scaling worker group [1]
-[1] Name [worker-group-1]: 
-[1] Min node number [1]: 
+[1] Name [worker-group-1]: worker-group-1]
+[1] Min node number [1]: 1
 [1] Max node number [1]: 3
 [1] Instance type [a1.2xlarge]: t3.large
-[1] Storage size (GB) [50]: 100
+[1] Storage size (GB) [50]: 50
+Setting up database
+Datatbase type (default, rds_aurora_mysql) [default]: default
+Setting up persistent volumes
 Please provide your Docker Hub information
-Docker Hub username [username]:
-Docker Hub email [email@sample.com]:
-Docker Hub password [********]:
-Docker Hub image namespace [username]:
+Docker Hub username [username]: xxxxxx
+Docker Hub email [email@sample.com]: xxxxxx@xxxxxx.com
+Docker Hub password [********]: 
+Docker Hub image namespace [xxxxxx]: xxxxxx
+You can edit the file /.podder/cluster.yml, then run `podder cluster apply`
 ```
 
 ### Apply configuration
