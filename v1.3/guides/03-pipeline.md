@@ -14,6 +14,8 @@ version: 1.0
 tasks:                                  # Add your tasks here
   - task_name: sensor-task              # task name
     timeout: 45                         # timeout setting of task 
+    ensure_task_ready: True             # Optional, default is True: make sure that task is available before executing task
+    ensure_task_ready_timeout: 120      # Optional, default is 100 seconds: set timeout for ensure_task_ready
   - task_name: main-task
     timeout: 45
   - task_name: writer-task
@@ -123,5 +125,11 @@ class Task(BaseTask):
         return outputs
 ・・・
 ```
-
 To configure next task on branching-task, you need to pass next task names on each data. Then, pipeline knows which data should be passed to which task and allocate them respectively. In this example, data will be passed to only `scanner-a-task`. If you did not specify task name, data will be passed to both tasks.
+
+## Ensure task ready option
+
+The `ensure_task_ready` setting is used to make sure task pod is ready before running task.
+By default, `ensure_task_ready` is True, `ensure_task_ready_timeout` is 100 seconds, the pipeline always checks connection to task pod to make sure it available before executing task and the timeout of this checking is 100 seconds.
+You can disable this setting by `ensure_task_ready: False` or change the timeout setting by `ensure_task_ready_timeout` option.
+
