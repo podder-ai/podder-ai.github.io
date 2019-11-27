@@ -125,8 +125,7 @@ class Task(BaseTask):
         return outputs
 ・・・
 ```
-
-- To configure next task on branching-task, you need to pass next task names on each data. Then, pipeline knows which data should be passed to which task and allocate them respectively. In this example, data will be passed to only `scanner-a-task`. If you did not specify task name, data will be passed to both tasks.
+To configure next task on branching-task, you need to pass next task names on each data. Then, pipeline knows which data should be passed to which task and allocate them respectively. In this example, data will be passed to only `scanner-a-task`. If you did not specify task name, data will be passed to both tasks.
 
 ## Ensure task ready option
 
