@@ -22,9 +22,9 @@ When you execute podder-installer, the following softwares are installed.
 ## Download Podder Installer
 You can download podder-installer according to your machine from the following URL.
 
-#### Version 1.5.0 (Worker Version)
+#### Version 1.5.1 (Worker Version)
 
-- [Linux 64bit](https://podder-ai-downloads.s3-ap-southeast-1.amazonaws.com/podder-installer/1.5.0/podder-installer-1.5.0_linux_amd64)
+- [Linux 64bit](https://podder-ai-downloads.s3-ap-southeast-1.amazonaws.com/podder-installer/1.5.1/podder-installer-1.5.1_linux_amd64)
 
 #### Version 1.4.1 (Airflow Version)
 
@@ -46,10 +46,10 @@ You can download podder-installer according to your machine from the following U
 You can execute podder-installer by the following command. (eq:  Linux AMD64)
 ```bash
 # Add permission to execute podder installer
-$ chmod 755 podder-installer-1.5.0_linux_amd64
+$ chmod 755 podder-installer-1.5.1_linux_amd64
 
 # Execute podder-installer
-$ sudo ./podder-installer-1.5.0_linux_amd64
+$ sudo ./podder-installer-1.5.1_linux_amd64
 ```
 
 Now, you will be asked several questions.
@@ -71,7 +71,7 @@ After installation is completed, you can check if podder is installed by the fol
 ```bash
 $ podder --version
 Authorizing podder-cli utilization ...
-podder, version 1.5.0
+podder, version 1.5.1
 ```
 
 ## Recommended System Requirements
